@@ -180,6 +180,9 @@ Send chat completion request to Perplexity.
 |----------|-------------|----------|--------|
 | `OPENEVIDENCE_API_KEY` | Your OpenEvidence API key | Yes | - |
 | `OPENEVIDENCE_BASE_URL` | OpenEvidence API base URL | No | `https://api.openevidence.com` |
+| `OPENEVIDENCE_SEARCH_PATH` | Override the search endpoint path when the API moves (e.g., `/ask_question`) | No | `/search` |
+| `OPENEVIDENCE_PAYLOAD_KEY` | Request field that carries the query text (`query`, `question`, etc.) | No | `query` |
+| `OPENEVIDENCE_TIMEOUT` | Request timeout in seconds for OpenEvidence calls | No | `30` |
 | `PERPLEXITY_API_KEY` | Your Perplexity API key | Yes | - |
 
 ## Use Cases
